@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  /* margin-top: 12px; */
+  background-color: #1A0B2E;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  
+}
+.teach{
+   margin-left: 70px; 
+   color: #FFFFFF;
+}
+.wave{
+  background-image: linear-gradient( #9100F8, #FB09B4 , #F7E93F );
+  background-clip: text;
+  color: transparent;
+}
+.nav-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  
+}
+.nav-links{
+  text-decoration: none;
+  margin-right: 30px;
+  color: #FFFFFF;
+  font-size: medium;
+  font-weight: 16;
+  
+}
+.btn-1{
+  margin-right: 80px;
+  font-size: medium;
+  font-weight: 16;
+  padding: 10px;
+  background-image: linear-gradient( #9100F8, #FB09B4 , #F7E93F );
+  border: none;
+  border-radius: 19px;
+  color: #FFFFFF;
+}
+
+main{
+  background-image: url(assets/hero-bg.png);
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-position:center ;
+  height: 100vh;
+  
+}
+.circle{
+ position: relative;
+ top: 165px;
+ left: 70px;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+  
+}
+.mic{
+ position: relative;
+ top: -100px;
+ left: 9px;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+}
+.new{
+  position: relative;
+  bottom: 135px;
+  right: 120px;
+}
+
+
