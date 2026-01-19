@@ -256,3 +256,84 @@ main{
   align-items: center;
   justify-content: space-evenly;
 }
+.Featured-Episodes-Section{
+  background-color: #1A0B2E;
+  padding-bottom: 120px;
+}
+.fp{
+  text-align: center;
+  padding-top: 100px ;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 27px;
+}
+.fps-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 70px 50px 100px;
+  text-align: start;
+  gap: 60px;
+}
+.fpp{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding-left: 15px;
+/* background-color: #250D44; */
+margin-right:200px ;
+color: #FFFFFF;
+
+}
+.baksho-1{
+  background-color: #250D44 ;
+  border-radius: 50px;
+  height: 450px;
+  width: 450px;
+}
+
+.fpp p{
+  color: #FFFFFF;
+  font-weight: 16;
+}
+
+.host-title{
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom:40px ;
+  padding-top: 100px;
+}
+.host {
+ display: flex;
+ background-color: #351165;
+ justify-content: center;
+ align-items: center;
+ padding: 20px 30px 20px 30px;
+ border-radius:40px;
+ margin: 10px 200px 0px 230px;
+ border: none;
+}
+.host-part{
+  padding: 50px 50px;
+}
+.host-part h2{
+ color: #FFFFFF;
+ font-weight: bold;
+ font-size:32px;
+ padding-bottom: 10px;
+}
+.host-part p{
+  color: #FFFFFF;
+  font-weight: 16;
+}
+.icons-img{
+  display: flex;
+  justify-content: start;
+  gap: 18px;
+  align-items: start;
+  padding: 15px 10px 10px 1px ;
+  
+}
