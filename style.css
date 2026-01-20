@@ -7,16 +7,26 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 .navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+   margin: 0 auto; 
   /* margin-top: 12px; */
   background-color: #1A0B2E;
   padding-top: 10px;
   padding-bottom: 12px;
+
+  
+  
   
 }
 .teach{
@@ -342,7 +352,7 @@ footer{
   background-size: cover ;
   background-repeat: no-repeat;
   background-position:center ;
-  width: auto;
+  width: 2000px;
   height: 412px;
 }
 footer .fo-tw{
@@ -398,4 +408,113 @@ padding: 160px 50px 50px 280px ;
  align-items: center;
  display: flex;
  justify-content: center;
+}
+
+
+/* mobile device */
+
+@media screen and (max-width:576px){
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .nav-info{
+    visibility: hidden;
+   
+  }
+  .teach {
+    margin-left: 30px;
+    color: #FFFFFF;    
+}
+
+.hamburger{
+  visibility: visible;
+  background-image: url(assets/hamburger-menu.png);
+  background-repeat: no-repeat;
+}
+
+.btn-1{
+  visibility: hidden;
+}
+
+
+  main{
+        background-image: url(assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+ 
+ .wct{
+  padding: 30px 5px 20px 5px;
+  font-size: 10px;
+ }
+ .container{
+  padding: 5px 5px 20px 5px;
+ }
+ .c-div{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+ }
+ 
+ .fp{
+  padding: 40px 20px 5px 20px;
+  font-size: 16px;
+ }
+ .fps-box{
+  display: flex;
+  flex-direction: column;
+  padding:20px 20px 20px 20px ;
+ }
+ .fpp{
+  /* padding: 5px 10px 10px 20px; */
+ }
+
+ .baksho-1 {
+    background-color: #250D44;
+    border-radius: 50px;
+    height: 470px;
+    width: 400px;
+}
+
+ iframe{
+  width: 400px;
+  
+ }
+ .host-title{
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+ }
+ .host{
+  display: block;
+  justify-content: center;
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+ 
+ }
+ .icons-img{
+  display: block;
+ }
+.third-class{
+  width:490px;
+height:318px;
+
+}
+footer .fo-tw img{
+  width: 210px;
+ 
+}
+.footer-icon p{
+  width: 1px;
+  font-size: 10px;
+  
+}
+ 
+
+
 }
